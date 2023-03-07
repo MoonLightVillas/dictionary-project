@@ -17,7 +17,28 @@ export default function App() {
         <Dictionary defaultKeyword="sunset" />
       </main>
       <footer className="App-footer">
-        <small>Coded by Mariela Campos</small>
+        This project was coded by{" "}
+        <a href="mailto:marielacampos@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Mariela Campos
+          </a>{" "}
+            and is{" "}
+        <a 
+        href="https://github.com/MoonLightVillas/react-weather-app"
+        target="_blank"
+        rel="noopener noreferrer">
+          open-sourced on GitHub 
+        </a> {""}
+          and {""}
+        <a
+        href="https://famous-puppy-0c88da.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+          hosted on Netlify
+        </a>    
       </footer>
      </div>
     </div>
